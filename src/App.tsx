@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-import "./App.css";
 
 interface Country {
   name: { common: string };
