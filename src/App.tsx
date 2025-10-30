@@ -89,7 +89,7 @@ const App = () => {
 
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-center px-4 py-8">
-      <div className="bg-blue-950/80 flex flex-col space-y-6 text-white rounded-2xl shadow-lg p-6 sm:p-8 w-full sm:w-[90%] md:max-w-lg text-center">
+      <div className="bg-cyan-950/80 flex flex-col space-y-6 text-white rounded-2xl shadow-lg p-6 sm:p-8 w-full sm:w-[90%] md:max-w-lg text-center">
         {!gameOver ? (
           <>
             <h1 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -101,7 +101,7 @@ const App = () => {
                 <img
                   src={correctCountry.flags.png}
                   alt={`Flag of ${correctCountry.name.common}`}
-                  className="w-32 sm:w-40 h-auto mx-auto rounded"
+                  className="w-32 sm:w-40 h-[100px] mx-auto rounded"
                 />
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 text-sm sm:text-base">
